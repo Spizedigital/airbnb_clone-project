@@ -432,4 +432,10 @@ h3 {
         align-items: center;
         justify-content: center;
     }
+    .mobile_search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
 }
