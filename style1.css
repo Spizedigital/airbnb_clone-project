@@ -431,12 +431,18 @@ h3 {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: sticky;
+        top:0px;
     }
     .desktop_search{
         display: none;
     }
     .mobile_search {
        display: none;
+       align-items: center;
+        justify-content: center;
+        position: static;
+       
     }
 }
     /* 
@@ -464,5 +470,6 @@ input{
         max-width: 70%;
         padding: 15px;
         margin: 10px auto;
+        width: 70%;
 }
 
